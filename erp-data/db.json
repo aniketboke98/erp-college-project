@@ -1,0 +1,162 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "studentdemo",
+      "password": "Pass@123",
+      "role": "student",
+      "email": "student@college.com"
+    },
+    {
+      "id": 2,
+      "username": "admindemo",
+      "password": "Pass@123",
+      "role": "teacher",
+      "email": "admin@college.com"
+    },
+    {
+      "name": ",email:",
+      "password": "",
+      "role": "student",
+      "email": "aniketboke0501@gmail.com",
+      "pass": "Ani@9191",
+      "username": "aniket",
+      "id": 3
+    },
+    {
+      "name": ",email:",
+      "password": "Ani@9191",
+      "role": "teacher",
+      "email": "aniketboke0501@gmail.com",
+      "username": "SIDU",
+      "result": {
+        "score": 85,
+        "grade": "A"
+      },
+      "id": 4
+    },
+    {
+      "name": ",email:",
+      "password": "Ani@9191",
+      "role": "student",
+      "email": "aniketboke0501@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "",
+      "email": "aniketboke0501@gmail.com",
+      "password": "Ani@9191",
+      "role": "student",
+      "id": 6
+    },
+    {
+      "name": "Kunal Nikam",
+      "email": "kunal@gmail.com",
+      "password": "Ani@9191",
+      "role": "teacher",
+      "username": "kunal",
+      "lastpercentage": "76",
+      "currentpercentage": "81",
+      "totalPercentage": "78.5",
+      "subjectMarks": {
+        "OperatingSystem": {
+          "subname": "Operating System",
+          "marks": 64,
+          "internal": 22,
+          "total": 86
+        },
+        "DBMS": {
+          "subname": "Database and Management System",
+          "marks": 58,
+          "internal": 26,
+          "total": 84
+        }
+      },
+      "result": {
+        "subjectdata": {
+          "subjectname": "Software Testing"
+        },
+        "subjectdata2": {
+          "subjectname": "ani"
+        },
+        "subjectdata3": {
+          "subjectname": ""
+        },
+        "subjectdata4": {
+          "subjectname": ""
+        }
+      },
+      "id": 7,
+      "semdata": "",
+      "subjectdata": {
+        "subjectname": "Software Testing"
+      },
+      "subjectdata2": {
+        "subjectname": ""
+      },
+      "subjectdata3": {
+        "subjectname": "",
+        "marks": 902
+      },
+      "subjectdata4": {
+        "subjectname": ""
+      }
+    },
+    {
+      "name": "",
+      "email": "kunalq3@gmail.com",
+      "password": "Ani@9191",
+      "role": "student",
+      "username": "SIDU",
+      "id": 8
+    },
+    {
+      "name": "",
+      "email": "k322unal123@gmail.com",
+      "password": "Ani@9191",
+      "role": "teacher",
+      "username": "ejn",
+      "id": 11
+    },
+    {
+      "name": "",
+      "email": "kunal@gmail.com",
+      "password": "Ani@9191",
+      "role": "student",
+      "id": 12
+    },
+    {
+      "name": "",
+      "email": "kunal@gmail.com",
+      "password": "Ani@9191",
+      "role": "student",
+      "id": 13
+    },
+    {
+      "name": "",
+      "email": "aniketboke05@gmail.com",
+      "password": "Ani@9191",
+      "role": "teacher",
+      "username": "Kunal",
+      "id": 14
+    },
+    {
+      "name": "Aniket",
+      "email": "aniketboke0501@gmail.com",
+      "password": "Ani@9191",
+      "role": "student",
+      "username": "SIDU",
+      "id": 15
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
