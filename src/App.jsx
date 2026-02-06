@@ -31,6 +31,7 @@ function App() {
           <Route path='/admin/teachers' element={<ManageTeachers/>}></Route>
           <Route path='/result' element={<Result/>}></Route>
           <Route path='/examform' element={<Fees/>}></Route>
+          <Route path='/admin/courses' element={<ManageCourses/>}></Route>
         </Routes>
     </Router>
     </>
