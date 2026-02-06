@@ -27,7 +27,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchUser = async () => {
       try {
-        const result = await axios.get(`http://localhost:3000/users/${id}`)
+        const result = await axios.get(`https://erp-college-project.onrender.com/users/${id}`)
         setUserData(result.data)
       } catch (err) {
         console.log(err)
