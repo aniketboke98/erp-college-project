@@ -40,8 +40,8 @@ const Dashboard = () => {
   const fetchData = async () => {
     try {
       const [usersRes, coursesRes] = await Promise.all([
-        axios.get(`http://localhost:3000/users`),
-        axios.get(`http://localhost:3000/courses`)
+        axios.get(`https://erp-college-project.onrender.com/users`),
+        axios.get(`https://erp-college-project.onrender.com/courses`)
       ])
       
       const allUsers = usersRes.data
@@ -86,7 +86,7 @@ const Dashboard = () => {
               status: status
           }
 
-          await axios.patch(`http://localhost:3000/users/${studentId}`, {
+          await axios.patch(`https://erp-college-project.onrender.com/users/${studentId}`, {
               examForm: updatedExamForm
           })
           

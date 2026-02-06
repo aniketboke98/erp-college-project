@@ -13,44 +13,46 @@
       "email": "rohan@student.com",
       "password": "123",
       "role": "student",
-      "examForm": {
-        "semester": "3",
-        "status": "Accepted",
-        "subjects": [
-          {
-            "name": "OSY",
-            "internal": 30,
-            "maxInternal": 30,
-            "external": 1,
-            "maxExternal": 70,
-            "total": 31
-          },
-          {
-            "name": "MAD",
-            "internal": 20,
-            "maxInternal": 30,
-            "external": 1,
-            "maxExternal": 70,
-            "total": 21
-          },
-          {
-            "name": "ACN",
-            "internal": 14,
-            "maxInternal": 30,
-            "external": 1,
-            "maxExternal": 70,
-            "total": 15
-          },
-          {
-            "name": "STE",
-            "internal": 30,
-            "maxInternal": 30,
-            "external": 52,
-            "maxExternal": 70,
-            "total": 82
-          }
-        ]
-      },
+      "examHistory": [
+        {
+          "semester": "3",
+          "status": "Accepted",
+          "subjects": [
+            {
+              "name": "OSY",
+              "internal": 30,
+              "maxInternal": 30,
+              "external": 1,
+              "maxExternal": 70,
+              "total": 31
+            },
+            {
+              "name": "MAD",
+              "internal": 20,
+              "maxInternal": 30,
+              "external": 1,
+              "maxExternal": 70,
+              "total": 21
+            },
+            {
+              "name": "ACN",
+              "internal": 14,
+              "maxInternal": 30,
+              "external": 1,
+              "maxExternal": 70,
+              "total": 15
+            },
+            {
+              "name": "STE",
+              "internal": 30,
+              "maxInternal": 30,
+              "external": 52,
+              "maxExternal": 70,
+              "total": 82
+            }
+          ]
+        }
+      ],
       "lastpercentage": 85,
       "currentpercentage": 88,
       "totalPercentage": 86.5
@@ -77,44 +79,46 @@
       "password": "Ani@9191",
       "role": "",
       "id": "GPnNECb",
-      "examForm": {
-        "semester": "7",
-        "status": "Pending",
-        "subjects": [
-          {
-            "name": "AI",
-            "internal": 0,
-            "maxInternal": 30,
-            "external": 0,
-            "maxExternal": 70,
-            "total": 0
-          },
-          {
-            "name": "AIML",
-            "internal": 0,
-            "maxInternal": 30,
-            "external": 0,
-            "maxExternal": 70,
-            "total": 0
-          },
-          {
-            "name": "DS",
-            "internal": 0,
-            "maxInternal": 30,
-            "external": 0,
-            "maxExternal": 70,
-            "total": 0
-          },
-          {
-            "name": "CSS",
-            "internal": 0,
-            "maxInternal": 30,
-            "external": 0,
-            "maxExternal": 70,
-            "total": 0
-          }
-        ]
-      }
+      "examHistory": [
+        {
+          "semester": "7",
+          "status": "Pending",
+          "subjects": [
+            {
+              "name": "AI",
+              "internal": 0,
+              "maxInternal": 30,
+              "external": 0,
+              "maxExternal": 70,
+              "total": 0
+            },
+            {
+              "name": "AIML",
+              "internal": 0,
+              "maxInternal": 30,
+              "external": 0,
+              "maxExternal": 70,
+              "total": 0
+            },
+            {
+              "name": "DS",
+              "internal": 0,
+              "maxInternal": 30,
+              "external": 0,
+              "maxExternal": 70,
+              "total": 0
+            },
+            {
+              "name": "CSS",
+              "internal": 0,
+              "maxInternal": 30,
+              "external": 0,
+              "maxExternal": 70,
+              "total": 0
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "aniket boke",
@@ -122,44 +126,46 @@
       "password": "Ani@9191",
       "role": "student",
       "id": "S8664",
-      "examForm": {
-        "semester": "4",
-        "status": "Accepted",
-        "subjects": [
-          {
-            "name": "M3",
-            "internal": 0,
-            "maxInternal": 30,
-            "external": 0,
-            "maxExternal": 70,
-            "total": 0
-          },
-          {
-            "name": "C++",
-            "internal": 0,
-            "maxInternal": 30,
-            "external": 0,
-            "maxExternal": 70,
-            "total": 0
-          },
-          {
-            "name": "DSA",
-            "internal": 0,
-            "maxInternal": 30,
-            "external": 0,
-            "maxExternal": 70,
-            "total": 0
-          },
-          {
-            "name": "Computer Network",
-            "internal": 0,
-            "maxInternal": 30,
-            "external": 0,
-            "maxExternal": 70,
-            "total": 0
-          }
-        ]
-      }
+      "examHistory": [
+        {
+          "semester": "4",
+          "status": "Accepted",
+          "subjects": [
+            {
+              "name": "M3",
+              "internal": 0,
+              "maxInternal": 30,
+              "external": 0,
+              "maxExternal": 70,
+              "total": 0
+            },
+            {
+              "name": "C++",
+              "internal": 0,
+              "maxInternal": 30,
+              "external": 0,
+              "maxExternal": 70,
+              "total": 0
+            },
+            {
+              "name": "DSA",
+              "internal": 0,
+              "maxInternal": 30,
+              "external": 0,
+              "maxExternal": 70,
+              "total": 0
+            },
+            {
+              "name": "Computer Network",
+              "internal": 0,
+              "maxInternal": 30,
+              "external": 0,
+              "maxExternal": 70,
+              "total": 0
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Aniket Boke",
@@ -168,44 +174,46 @@
       "role": "student",
       "username": "Aniket Boke",
       "id": "e1otId9",
-      "examForm": {
-        "semester": "1",
-        "status": "Accepted",
-        "subjects": [
-          {
-            "name": "PY",
-            "internal": 11111,
-            "maxInternal": 30,
-            "external": 0,
-            "maxExternal": 70,
-            "total": 11111
-          },
-          {
-            "name": "CM",
-            "internal": 0,
-            "maxInternal": 30,
-            "external": 0,
-            "maxExternal": 70,
-            "total": 0
-          },
-          {
-            "name": "M1",
-            "internal": 0,
-            "maxInternal": 30,
-            "external": 0,
-            "maxExternal": 70,
-            "total": 0
-          },
-          {
-            "name": "GH",
-            "internal": 0,
-            "maxInternal": 30,
-            "external": 0,
-            "maxExternal": 70,
-            "total": 0
-          }
-        ]
-      }
+      "examHistory": [
+        {
+          "semester": "1",
+          "status": "Accepted",
+          "subjects": [
+            {
+              "name": "PY",
+              "internal": 11111,
+              "maxInternal": 30,
+              "external": 0,
+              "maxExternal": 70,
+              "total": 11111
+            },
+            {
+              "name": "CM",
+              "internal": 0,
+              "maxInternal": 30,
+              "external": 0,
+              "maxExternal": 70,
+              "total": 0
+            },
+            {
+              "name": "M1",
+              "internal": 0,
+              "maxInternal": 30,
+              "external": 0,
+              "maxExternal": 70,
+              "total": 0
+            },
+            {
+              "name": "GH",
+              "internal": 0,
+              "maxInternal": 30,
+              "external": 0,
+              "maxExternal": 70,
+              "total": 0
+            }
+          ]
+        }
+      ]
     }
   ],
   "courses": [

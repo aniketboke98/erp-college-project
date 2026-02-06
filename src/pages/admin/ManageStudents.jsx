@@ -38,7 +38,7 @@ const ManageStudents = () => {
 
     const fetchStudents = async () => {
         try {
-            const res = await axios.get(`http://localhost:3000/users`)
+            const res = await axios.get(`https://erp-college-project.onrender.com/users`)
             setStudents(res.data.filter(user => user.role === 'student'))
         } catch (error) {
             console.log(error)
@@ -57,9 +57,9 @@ const ManageStudents = () => {
         try {
             
             const newId = `S${Math.floor(1000 + Math.random() * 9000)}` 
-            const newStudent = { ...formData, id: newId, role: 'student', examForm: null }
+            const newStudent = { ...formData, id: newId, role: 'student', examHistory: [] }
             
-            await axios.post(`http://localhost:3000/users`, newStudent)
+            await axios.post(`https://erp-college-project.onrender.com/users`, newStudent)
             fetchStudents()
             setIsAddModalOpen(false)
             setFormData({ name: "", email: "", password: "", role: "student" })
@@ -71,7 +71,7 @@ const ManageStudents = () => {
     const handleDelete = async (id) => {
         if(confirm("Are you sure you want to delete this student?")) {
             try {
-                await axios.delete(`http://localhost:3000/users/${id}`)
+                await axios.delete(`https://erp-college-project.onrender.com/users/${id}`)
                 fetchStudents()
             } catch (error) {
                 console.log(error)
@@ -92,7 +92,7 @@ const ManageStudents = () => {
 
     const handleEditStudent = async () => {
         try {
-            await axios.put(`http://localhost:3000/users/${editingStudent.id}`, {
+            await axios.put(`https://erp-college-project.onrender.com/users/${editingStudent.id}`, {
                 ...editingStudent,
                 ...formData
             })
