@@ -7,7 +7,7 @@ import Signup from './pages/login/Signup'
 import Home from './pages/Home'
 import { BrowserRouter as Router, Routes, Route, useParams } from 'react-router-dom'
 import Login from './pages/login/Login'
-import Dashboard from './pages/student/dashboard'
+import Dashboard from './pages/student/Dashboard'
 import Result from './pages/student/Result'
 import Fees from './pages/student/Fees'
 import Dashboardam from './pages/admin/Dashboard'
@@ -31,6 +31,7 @@ function App() {
           <Route path='/admin/teachers' element={<ManageTeachers/>}></Route>
           <Route path='/result' element={<Result/>}></Route>
           <Route path='/examform' element={<Fees/>}></Route>
+          <Route path='/admin/courses' element={<ManageCourses/>}></Route>
         </Routes>
     </Router>
     </>
